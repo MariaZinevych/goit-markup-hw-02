@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  color: #2e2f42;
 }
 
 .list {
@@ -24,7 +25,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -74,6 +74,7 @@ body {
   line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--secondery-title-color);
+  font-style: normal;
 }
 
 .tel {
@@ -81,6 +82,7 @@ body {
   line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--secondery-title-color);
+  font-style: normal;
 }
 
 .mailto:hover,
@@ -106,6 +108,8 @@ body {
 }
 
 .button-hero {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 50;
@@ -118,6 +122,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #404bbf;
 }
 
 /* ---Section2---  */
@@ -185,7 +194,7 @@ body {
 
 /* ---Portfolio---  */
 
-.main-list {
+.main-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 5;
@@ -193,12 +202,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
-  color: #4d5ae5;
-}
-
-.main-btn {
   cursor: pointer;
+  color: #4d5ae5;
 }
 
 .portfolio-subtitle {
